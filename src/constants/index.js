@@ -25,6 +25,10 @@ import {
   threejs,
 } from "../assets";
 
+import walt from "../assets/walt.jpg";
+import jose from "../assets/jose.jpg";
+import lazaro from "../assets/lazaro.jpg";
+
 export const navLinks = [
   {
     id: "about",
@@ -42,19 +46,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Front-End Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Web Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Mobile Developer",
     icon: creator,
   },
 ];
@@ -116,11 +120,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Front-End Developer",
+    company_name: "<DLine-Code/>",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Março 2018 - Abril 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -170,7 +174,7 @@ const experiences = [
 ];
 
 const testimonials = [
-  {
+  /*{
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Sara Lee",
@@ -193,6 +197,30 @@ const testimonials = [
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },*/
+  {
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "José Gonçalves",
+    designation: "CTO ",
+    company: "<DLine-Code/>",
+    image: jose,
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Walt de Jesus",
+    designation: "UI/UX",
+    company: "Angola",
+    image: walt,
+  },
+  {
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lázaro Manuel",
+    designation: "Fundador da CDA",
+    company: "Community Dev Angola",
+    image: lazaro,
   },
 ];
 

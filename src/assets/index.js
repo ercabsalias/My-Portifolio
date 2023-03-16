@@ -29,11 +29,19 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import dline from "./company/dline.png";
+import is4 from "./company/is4.png";
+import maka from "./company/maka.jpg";
+import spn from "./company/spn.jpg";
 
 export {
   logo,
   backend,
   creator,
+  dline,
+  spn,
+  maka,
+  is4,
   mobile,
   web,
   github,
