@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  dline,
+  is4,
+  spn,
+  maka,
 } from "../assets";
 
 import walt from "../assets/walt.jpg";
@@ -122,8 +126,8 @@ const experiences = [
   {
     title: "Front-End Developer",
     company_name: "<DLine-Code/>",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: dline,
+    iconBg: "#222533",
     date: "Março 2018 - Abril 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -134,8 +138,8 @@ const experiences = [
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    company_name: "IS4 Solutions",
+    icon: is4,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -147,9 +151,9 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
+    company_name: "Instituto Politécnico Industrial de Luanda - IPIL",
+    icon: maka,
+    iconBg: "#ffffff",
     date: "Jan 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -160,9 +164,9 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    company_name: "SPN",
+    icon: spn,
+    iconBg: "#662ec1",
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",

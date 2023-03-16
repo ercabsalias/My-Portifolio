@@ -31,7 +31,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import dline from "./company/dline.png";
 import is4 from "./company/is4.png";
-import maka from "./company/maka.jpg";
+import maka from "./company/maka.png";
 import spn from "./company/spn.jpg";
 
 export {
