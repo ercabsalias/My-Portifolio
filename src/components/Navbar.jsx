@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
-import Logo from "../assets/foto.jpg";
+import Logo from "../assets/foto.jpeg";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -51,7 +51,7 @@ const Navbar = () => {
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Ernesto Cabingano Salias &nbsp;
-            <span className="sm:block hidden"> | Mobile Web Developer</span>
+            <span className="sm:block hidden"> | Web Developer</span>
           </p>
         </Link>
 

@@ -40,20 +40,21 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>INTRODUÇÃO</p>
-        <h2 className={styles.sectionHeadText}>Visão geral.</h2>
+        <h2 className={styles.sectionHeadText}>Visão Geral.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Sou um desenvolvedor de software qualificado com experiência em
-        TypeScript e JavaScript, e expertise em frameworks como (React, Node.js
-        e React Native), desenvolvedor Web Full-Stack com foco em Front-End,
-        transformador de projetos e especificações de software em códigos
-        altamente funcionais usando tecnologias Web. Alguém que consegue definir
-        suas prioridades e planeja as entregas no prazo. Além da organização
-        pessoal, tenho a organização do próprio código
+        Desenvolvedor Web Full-Stack especializado em Front-End, com experiência
+        em transformar conceitos em códigos altamente funcionais. Habilidades
+        destacadas incluem priorização eficiente, cumprimento de prazos e
+        organização meticulosa tanto pessoal quanto no código-fonte.
+        Comprometido com a criação de interfaces intuitivas, otimizadas e
+        acessíveis. Sempre atualizado com as últimas tendências e padrões do
+        setor. Pronto para enfrentar desafios e contribuir para projetos
+        inovadores em equipes dinâmicas
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
