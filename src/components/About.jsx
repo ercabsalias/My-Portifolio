@@ -67,3 +67,7 @@ const About = () => {
 };
 
 export default SectionWrapper(About, "about");
+
+/*Na DLine Code eu aprendi bem a programação
+  Na D
+*/
