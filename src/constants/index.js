@@ -27,6 +27,7 @@ import {
   is4,
   spn,
   maka,
+  med,
 } from "../assets";
 
 import walt from "../assets/walt.jpg";
@@ -50,19 +51,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
+    title: "Eficiência Impecável",
     icon: web,
   },
   {
-    title: "Front-End Developer",
+    title: "Qualidade Excepcional",
     icon: mobile,
   },
   {
-    title: "Web Developer",
+    title: "Inovação Dinâmica",
     icon: backend,
   },
   {
-    title: "Mobile Developer",
+    title: "Aprendizado Ágil",
     icon: creator,
   },
 ];
@@ -130,27 +131,15 @@ const experiences = [
     iconBg: "#222533",
     date: "Março 2018 - Abril 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desenvolvimento e manutenção de aplicações web utilizando Next.js, TypeScript e outras tecnologias relacionadas.",
+      "Colaborar com equipes multifuncionais, incluindo designers, gerentes de produto e outros desenvolvedores para criar produtos de alta qualidade.",
+      "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
+      "Participar de revisões de código e fornecer feedback construtivo para outros desenvolvedores.",
     ],
   },
+
   {
-    title: "React Native Developer",
-    company_name: "IS4 Solutions",
-    icon: is4,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
+    title: "Web e Mobile Developer",
     company_name: "Instituto Politécnico Industrial de Luanda - IPIL",
     icon: maka,
     iconBg: "#ffffff",
@@ -167,7 +156,36 @@ const experiences = [
     company_name: "SPN",
     icon: spn,
     iconBg: "#662ec1",
-    date: "Jan 2023 - Present",
+
+    date: "Jan 2021 - Feb 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Front-End Developer",
+    company_name: "MED - Ministério da Eduação de Angola",
+    icon: med,
+    iconBg: "#E6DEDD",
+
+    date: "Jan 2023 - Presente",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "React Native Developer",
+    company_name: "IS4 Solutions",
+    icon: is4,
+    iconBg: "#E6DEDD",
+
+    date: "Nov 2022 - Presente",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
