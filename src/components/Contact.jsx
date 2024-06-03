@@ -27,21 +27,21 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_r0jcplm",
-        "template_1t76uxq",
+        "service_ffmvi4j",
+        "template_nyses56",
         {
-          form_name: form.name,
+          from_name: from_name,
           to_name: "Salias",
           from_email: form.email,
           to_email: "ercabsalias@gmail.com",
           message: form.message,
         },
-        "Jqq9AvwIuSjoMiA5c"
+        "OQ2O6AwsLst3WO8e9"
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Deu certo.");
 
           setForm({
             name: "",
@@ -53,7 +53,7 @@ const Contact = () => {
           setLoading(false);
 
           console.log(error);
-          alert("Something went wrong.");
+          alert("Deu errado.");
         }
       );
   };
