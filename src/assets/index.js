@@ -33,6 +33,7 @@ import dline from "./company/dline.png";
 import is4 from "./company/is4.png";
 import maka from "./company/maka.png";
 import spn from "./company/spn.jpg";
+import med from "./company/med.png";
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   tesla,
   carrent,
   jobit,
+  med,
   tripguide,
 };
