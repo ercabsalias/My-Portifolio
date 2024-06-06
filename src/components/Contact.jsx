@@ -1,11 +1,11 @@
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const formRef = useRef();
@@ -41,7 +41,16 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Deu certo.");
+          toast.success("Mensagem enviado!", {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+          });
 
           setForm({
             name: "",
@@ -53,7 +62,17 @@ const Contact = () => {
           setLoading(false);
 
           console.log(error);
-          alert("Deu errado.");
+          toast.error("Erro ao enviar!", {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+            transition: Bounce,
+          });
         }
       );
   };
