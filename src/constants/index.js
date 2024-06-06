@@ -153,7 +153,7 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "SPN",
+    company_name: "SPN LTDA",
     icon: spn,
     iconBg: "#662ec1",
 
